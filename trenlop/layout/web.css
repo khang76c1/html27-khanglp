@@ -1,0 +1,23 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    width: 1140px;
+    margin: 1px;
+}
+#menu_top{
+    background: rgba(59, 61, 85, 0.326);
+    height: 40px;
+}
+#banner{
+    background: red;
+    height: 280px;
+    width: 1140px;
+}
+#main #left {
+    background: rgba(59, 61, 85, 0.326);
+    height: 40px;
+}
+#menu_top{
+    background: rgba(59, 61, 85, 0.326);
+    height: 40px;
+}
