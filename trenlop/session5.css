@@ -1,39 +1,27 @@
-body{
-    margin: 0;
-}
-#layout{
-    max-width:1140;
-    margin: auto;
-}
 #header{
     background-color: aquamarine;
 }
 #container{
    display: flex;
-
 }
 #footer{
     background-color: aquamarine;
-    border: 1px solid red;
+    border: 1px;
     margin: auto;
 }
 
 .left{
-    float: left;
-    border: 1px solid red;
-    
-    
+    flex-basis:10% ;
 }
 .content{
-    float: center;
-    border: 1px solid red;
     margin: auto;
-    height: 200px;
-    width: 200px;
+    flex-basis: 60% ;
+    
 }
 .right{
-    float: right;
-    border: 1px solid red;
-    margin: right;
     background-color: blue;
+    flex-basis: 20% ;
+}
+.content2{
+    border: 1;
 }
