@@ -1,81 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./session5.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-</head>
-<body>
-   <div id="layout">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="./session5.css">
+      <link rel="stylesheet"
+         href="./bootstrap-5.2.2-dist/css/bootstrap.min.css">
+      <script src="https://kit.fontawesome.com/a2c4fe21b2.js"
+         crossorigin="anonymous"></script>
 
-    <div id="header" >
-        <span>HOME</span>
-        <span>LIST</span>
-        <span>ADC </span>
-    </div>
+   </head>
+   <body>
+      <div style="width:1010px;height: auto;margin: 0 auto;border: 1px solid
+         black;" id="khung">
+         <div id="container">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-sm-4 bg-primary" style="height:1250px">
 
-    <div id="container">
-        <div class="left">
-            <ul>
-               <li>drive</li>
-               <li>walk</li>
-               <li>return</li>
-               <li>red</li>
-            </ul>
-        </div> 
-        <div class="content">
-            <div class="content1">
-              <h1>THE Walk</h1>
-              <p>the........</p>
+                     <p><img
+                           style="height:300px;width:300px;margin:12px;border-radius:50%;"
+                           src="./layout/avt.jpg" alt=""></p>
+                     <h1 class="h"><strong><i>Thông tin</i></strong></h1>
+                     <!-- thông tin cá nhân -->
+                     <ul class="thongtin">
+                        <li>Giới tính:
+                           <input style="border-width: 0px;width: 150px;"
+                              type="text"
+                              placeholder="Username" aria-label="Username">
+                        </li>
+                        <hr style="margin: 1px 0;" width="auto">
+                        <li>Ngày sinh:
+                           <input style="border-width: 0px;width: 150px;"
+                              type="text"
+                              placeholder="Username" aria-label="Username">
+                        </li>
+                        <hr style="margin: 1px 0;" width="auto">
+                        <li>Sđt:
+                           <input style="border-width: 0px;width: 150px;"
+                              type="text"
+                              placeholder="Username" aria-label="Username">
+                        </li>
+                        <hr style="margin: 1px 0;" width="auto">
+                        <li>Email: <input style="border-width: 0px;width:
+                              150px;" type="text"
+                              placeholder="Username" aria-label="Username"></li>
+                        <hr style="margin: 1px 0;" width="auto">
+                        <li>Địa chỉ: <input style="border-width: 0px;width:
+                              150px;" type="text"
+                              placeholder="Username" aria-label="Username"></li>
+                        <hr style="margin: 1px 0;" width="auto">
+                     </ul>
+                     <!-- tin học -->
+                     <h1 class="h"><strong><i>Tin học</i></strong></h1>
+                     <span><img
+                           style="height:20px;width:20px;border-radius:50%;"
+                           src="./layout/anhdao.PNG" alt=""> MS Word
+                        <input class="form-check-input" type="checkbox" value=""
+                           id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        </label>
+                     </span>
+                     <hr style="margin: 5px 0;width:100%">
+                     <span><img
+                           style="height:20px;width:20px;border-radius:50%;"
+                           src="./layout/anhdao.PNG" alt=""> MS Excel
+                        <input class="form-check-input" type="checkbox" value=""
+                           id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        </label>
+                     </span>
+                     <hr style="margin: 5px 0;width:100%">
+                     <span><img
+                           style="height:20px;width:20px;border-radius:50%;"
+                           src="./layout/anhdao.PNG" alt=""> MS Power Point
+                        <input class="form-check-input" type="checkbox" value=""
+                           id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        </label>
+                     </span>
+                     <hr style="margin: 5px 0;width:100%">
+                     <span><img
+                           style="height:20px;width:20px;border-radius:50%;"
+                           src="./layout/anhdao.PNG" alt=""> MS Outlock
+                        <input class="form-check-input" type="checkbox" value=""
+                           id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        </label>
+                     </span>
+                     <hr style="margin: 5px 0;width:100%">
+
+                     <!-- ngoại ngữ -->
+                     <h1 class="h"><strong><i> Ngoại Ngữ</i></strong></h1>
+                     <h3><strong><li>TIẾNG ANH</li></strong></h3>
+                     <div class="input-group flex-nowrap">
+                        <span class="input-group-text" id="addon-wrapping">
+                           Listening Test score</span>
+                        <input type="text" class="form-control"
+                           placeholder="score" aria-label="score"
+                           aria-describedby="addon-wrapping">
+                     </div>
+                     <div class="input-group flex-nowrap">
+                        <span class="input-group-text" id="addon-wrapping">
+                           Reading Test score</span>
+                        <input type="text" class="form-control"
+                           placeholder="score" aria-label="score"
+                           aria-describedby="addon-wrapping">
+                     </div>
+                     <div class="input-group flex-nowrap">
+                        <span class="input-group-text" id="addon-wrapping">
+                           Writing Test score</span>
+                        <input type="text" class="form-control"
+                           placeholder="score" aria-label="score"
+                           aria-describedby="addon-wrapping">
+                     </div>
+                     <div class="input-group flex-nowrap">
+                        <span class="input-group-text" id="addon-wrapping">
+                           Speaking Test score</span>
+                        <input type="text" class="form-control"
+                           placeholder="score" aria-label="score"
+                           aria-describedby="addon-wrapping">
+                     </div>
+                  </div>
+                  <div class="col-sm-8 badge text-bg-info"
+                     style="height:1250px">
+                     <div style="text-align: center;" class="abc">
+                        <h1>LÊ PHÙNG KHANG</h1>
+                        <hr width="100%">
+                        <h2 style="margin-bottom:50px"><i>NHÂN VIÊN KỸ THUẬT
+                              ĐIỆN</i></h2>
+                     </div>
+                     <div style="text-align:left" class="học vấn">
+                        <h1>Học Vấn <img
+                              style="height:50px;width:50px;border-radius:50%;"
+                              src="./layout/non.jpg" alt=""></h1>
+                        <ul>
+                           <li> <h3>Trường: ................</h3></li>
+                           <li> <h3>Chuyên ngành: ................</h3></li>
+                           <li><h3>Loại tốt nghiệp: ................</h3></li>
+                           <li><h3>Trình độ: ................</h3></li>
+                        </ul>
+
+                     </div>
+                     <div style="text-align:left" class="Kinh nghiệm">
+                        <h1>Kinh nghiệm làm việc <img style="border-radius:50%;"
+                              src="./layout/cap.jpg" alt=""></h1>
+                        <ul>
+                           <li><h2>Thực Tập: Nhân Viên Kỹ Thuật</h2></li>
+                           <li><h2>Công Ty: K_elec - Thành Phố Hồ Chí Minh</h2></li>
+                        </ul>
+                        <h3>- Mô tả công việc</h3>
+                        <h3>+ Lắp đặt hệ thống điện đường</h3>
+                        <h3>+ Lắp đặt hệ thống chữa cháy</h3>
+                        <h3>- Thành tích đạt được</h3>
+                        <h3>+ Đảm bảo dự án thi công đúng thời hạn</h3>
+                     </div>
+                     <div style="text-align:left" class="Kỹ năng">
+                        <h1>Kỹ năng làm việc <img style="border-radius:50%;"
+                              src="./layout/cap.jpg" alt=""></h1>
+                        <h3>- Có khả năng làm việc độc lập</h3>
+                        <h3>- Chịu khó trong công việc</h3>
+                        <h3>- Có tinh thần học tập và cống hiến cho công ty</h3>
+                        <h3>- Có tư duy logic</h3>
+                     </div>
+                     <div style="text-align:left" class="Người liên hệ">
+                        <h1>Kỹ năng làm việc <img style="border-radius:50%;"
+                              src="./layout/cap.jpg" alt=""></h1>
+                        <ul>
+                           <h3><li>Công ty: ABC</li></h3>
+                           <h3><li>Họ và tên: Nguyễn văn A</li></h3>
+                           <h3><li>Chức vụ: Trưởng phòng</li></h3>
+                           <h3><li>Sđt:0123456789</li></h3>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
             </div>
-
-            <div class="content2">
-              <table border="1" width="100%" cellspacing="0">
-                <tr>
-                  <td></td>
-                  <td>đặc điểm</td>
-                </tr>
-                <tr>
-                  <td>java</td>
-                  <td>js giúp</td>
-                </tr>
-                <tr>
-                  <td>html</td>
-                  <td>hypexx</td>
-                </tr>
-                <tr>
-                  <td>css</td>
-                  <td>cascadding</td>
-                </tr>
-              </table>
-            </div>
-            
-          
-        </div> 
-        <div class="right">
-            <h1>WHAT?</h1>
-            <p>that plulit</p>
-            <h1>WHERE?</h1>
-            <p>that plulit</p>
-            <h1>PRICE?</h1>
-            <p>that plulit</p>
-        </div> 
-    </div>
-
-    <div id="footer" >
-      <div>
-        <h1>footer</h1>
+         </div>
       </div>
-    </div>
-   </div>
-   
-    
-   
-
-    
-</body><script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+      <script src="./bootstrap-5.2.2-dist/umd/popper.min.js"></script>
+      <script src="./bootstrap-5.2.2-dist/css/bootstrap.min.css"></script>
+      <script src="./bootstrap-5.2.2-dist/js/bootstrap.bundle.js"></script>
+   </body>
 </html>
