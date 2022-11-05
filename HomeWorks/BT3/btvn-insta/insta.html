@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram</title>
+  <script src="https://kit.fontawesome.com/a2c4fe21b2.js"
+         crossorigin="anonymous"></script>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      /* 100% view height */
+      width: 50%;
+      height: auto;
+      margin: 0 auto;
+      border: 1px solid black;
+    }
+
+    .row-header {
+      display: flex;
+      background-color: white;
+      width: 100%;
+      height: 40px;
+    }
+
+    .row-header-logo {
+      flex: 1;
+      background-color: white;
+      float: left;
+    }
+
+    .row-header-icons {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex: 2;
+      background-color: white;
+    }
+
+    .icon {
+      height: 32px;
+      width: 32px;
+      margin-top: 20px;
+     
+    }
+
+    .row-friends {
+      display: flex;
+      justify-content: space-evenly;
+      background-color: white;
+      align-items: center;
+      width: 100%;
+      height: 80px;
+      padding: 40px 0;
+ 
+    }
+
+    .avatar {
+      height: 48px;
+      width: 48px;
+      background-color: burlywood;
+      border-radius: 24px;
+      text-align: center;
+    }
+    .row-author {
+      background-color: white;
+      width: 100%;
+      height: 60px;
+      display: flex;
+      text-align: left;
+     }
+    .row-picture {
+      background-color: white;
+      width: 100%;
+   height: 800px;
+    }
+    .row-interactions {
+      background-color: white;
+      width: 100%;
+      height: 60px;
+      display: flex;
+  
+    }
+    .row-comments {
+      background-color: white;
+      width: 100%;
+      height: 60px;
+    }
+    .hinh{
+        height:40px;
+        width: auto;
+        margin-left: 50px;
+    }
+   .avatar1{
+      height: 32px;
+      width: 32px;
+      background-color: burlywood;
+      border-radius: 16px;
+      text-align: center;
+      margin-left: 10px;
+     }
+     .row-interactions1{
+        display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex: 1;
+      background-color: white;
+      padding-left: 100px;
+     }
+     .row-interactions2{
+     display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex: 1;
+      background-color: white;
+     }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row-header">
+      <div class="row-header-logo"><img class="hinh" src="./in.png" alt=""></div>
+      <div class="row-header-icons">
+       
+        <div class='icon'><i class="fa-solid fa-house"></i></div>
+        <div class='icon'><i class="fa-brands fa-facebook-messenger"></i></div>
+        <div class='icon'><i class="fa-sharp fa-solid fa-compass"></i></div>
+        <div class='icon'><i class="fa-regular fa-heart"></i></div>
+        <div class='icon'><i class="fa-solid fa-user-plus"></i></div>
+      
+      </div>
+    </div>
+<hr width="100%">
+
+    <div class="row-friends">
+      <div class="avatar"><i class="fa-solid fa-user-plus"></i></div>
+      <div class="avatar"><i class="fa-solid fa-user-plus"></i></div>
+      <div class="avatar"><i class="fa-solid fa-user-plus"></i></div>
+      <div class="avatar"><i class="fa-solid fa-user-plus"></i></div>
+      <div class="avatar"><i class="fa-solid fa-user-plus"></i></div>
+    </div>
+    <hr width="100%">
+
+    <div class="row-author">
+        <div class="avatar1"><i class="fa-solid fa-user-plus"></i></div>lê phùng khang
+      </div>
+      <hr width="95%">
+    <div  class="row-picture">
+        <img src="./demo.jpg" alt="">
+    </div>
+    <div class="row-interactions">
+        <div class="row-interactions1">
+            <div><i class="fa-regular fa-heart"></i></div>
+        <div><i class="fa-sharp fa-solid fa-comment"></i></div>
+        <div><i class="fa-solid fa-share"></i></div>
+    </div>
+        <div class="row-interactions2">
+            <div><i class="fa-solid fa-bookmark"></i></div>
+        </div>
+        
+    </div>
+    <div class="row-comments">
+        
+    </div>
+  </div>
+</body>
+
+</html>

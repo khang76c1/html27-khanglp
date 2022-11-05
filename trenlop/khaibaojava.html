@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>hello</h1>
+        <script>
+          let num = 11
+          console.log('number',num);
+
+          let string = 'a'
+          console.log('string',string);
+
+          let  a = true;
+          console.log('boolean',a)
+
+         let gt = {
+            ten:"khang",
+             tuoi:20, 
+             };
+         console.log('object',gt);
+
+         let d = null;
+         console.log('null',d);
+
+         let e = undefined;
+         console.log('undefined',e);
+         
+         let arayyy = [1,2,3]
+         console.log('array',arayyy)
+
+         function nameFun(params) {
+            console.log('input',params)
+         }
+         nameFun(12)
+
+        //  let num1=prompt('nhâp số');
+        //  if (num1 % 2 ===0){
+        //     console.log('chan')
+        //  }
+        //  else{
+        //     console.log('le')
+        //  }
+
+        // function chanle(params) {
+        //    if (params % 2 === 0){
+        //     console.log(num1 +'là chẵn')
+        //  }
+        //  else{
+        //     console.log(num1 +'là lẻ')
+        //  }
+        //  }
+        // chanle(num1)
+
+        // let diem = prompt('nhập điểm');
+        // function hocluc(params) {
+        //     if ((params<=10) && (params>=8)){
+        //         console.log('học lực giỏi')
+        //     }
+        //     if ((params<8) && (params>=6.5)){
+        //         console.log('học lực khá')
+        //     }
+        //     if ((params<6.5) && (params>=5)){
+        //         console.log('học lực tb')
+        //     }
+        //     else{
+        //         console.log('học lực yếu')
+        //     }
+
+        // }
+        // hocluc(diem)
+        let diem = prompt('nhập điểm');
+        function hocluc(params) {
+            if ((params<=10) && (params>=8)){
+                console.log('học lực giỏi')
+            }
+            else if ((params>=6.5)){
+                console.log('học lực khá')
+            }
+            else if (0(params>=5)){
+                console.log('học lực tb')
+            }
+            else{
+                console.log('học lực yếu')
+            }
+
+        }
+        hocluc(diem)
+    </script>
+    </body>
+</html>
